@@ -6,9 +6,9 @@
 <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14"/></filter>
 </defs>
 <rect width="1024" height="1024" rx="190" fill="url(#r)"/>
-<path d="M310 259H649C842 259 986 400 986 596S849 944 648 944H267L466 826H641C769 826 856 723 856 597S769 377 643 377H515V710L385 793V322Z" fill="#260007" opacity=".65" transform="translate(10 17)" filter="url(#shadow)"/>
+<g transform="translate(-114 -89)"><path d="M310 259H649C842 259 986 400 986 596S849 944 648 944H267L466 826H641C769 826 856 723 856 597S769 377 643 377H515V710L385 793V322Z" fill="#260007" opacity=".65" transform="translate(10 17)" filter="url(#shadow)"/>
 <path d="M310 259H649C842 259 986 400 986 596S849 944 648 944H267L466 826H641C769 826 856 723 856 597S769 377 643 377H515V710L385 793V322Z" fill="url(#silver)" stroke="url(#edge)" stroke-width="9" stroke-linejoin="round"/>
 <path d="M267 944C411 801 576 685 794 620C650 684 538 763 466 826C415 871 370 915 352 944Z" fill="url(#silver)" stroke="#f7f7fb" stroke-width="4" stroke-linejoin="round"/>
 <path d="M319 265H649C819 265 972 395 979 573" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="7"/>
 <path d="M277 937H644C835 937 976 789 979 605" fill="none" stroke="#a8abb3" stroke-opacity=".55" stroke-width="7"/>
-</svg>
+</g></svg>
