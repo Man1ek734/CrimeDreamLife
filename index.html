@@ -110,6 +110,10 @@ header{top:19px}
 .account-menu-item:hover{background:#233746;color:white}.account-logout{color:#ff3654}.account-logout:hover{background:#39212e;color:#ff5c70}.account-menu-separator{height:1px;background:#273845;margin:3px 4px}.account-menu svg{flex:none}.account-menu-user{display:none}.account-menu .account-admin:disabled{opacity:.52;cursor:not-allowed}.account-menu .account-admin:disabled:hover{background:transparent}
 
 .account-menu{background:linear-gradient(145deg,#241017,#130c11)!important;border:1px solid #7c273c!important;min-width:160px!important;border-radius:13px!important;box-shadow:0 16px 40px #000b,0 0 22px #d71e3833!important}.account-logout{color:#ff526b!important}.account-logout:hover{background:#531a2a!important;color:#fff!important}
+
+/* Only show the Discord link in the right-hand navbar on desktop. */
+@media(min-width:901px){.links .mobile-discord{display:none!important}}
+@media(max-width:900px){.links .mobile-discord{display:block}}
 </style>
 </head>
 <body>
