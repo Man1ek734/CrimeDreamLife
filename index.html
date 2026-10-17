@@ -89,6 +89,12 @@ header{top:19px}
 @media(max-width:900px){.links a::after,.links a.active::after,.links a[aria-current="page"]::after{left:18px;bottom:7px;transform:none}}
 @media(max-width:520px){.login-link .login-user-icon{display:block;width:15px;height:15px}}
 .login-link{font-size:11px!important;font-weight:700!important}.login-link span{font-size:11px!important}@media(max-width:520px){.login-link,.login-link span{font-size:10px!important}}
+
+/* Hero footer positioning fix — avoid overlap with CTA buttons */
+.hero{min-height:max(850px,100svh);padding-bottom:155px}.hero .container{position:relative}.hero-bottom{position:absolute;left:0;right:0;bottom:32px;pointer-events:none}.hero-actions{position:relative;z-index:2;margin-bottom:24px}.hero-text{padding-bottom:12px}
+@media(max-width:900px){.hero{min-height:850px;padding-bottom:175px}.hero-bottom{bottom:29px}}
+@media(max-width:700px){.hero{min-height:780px;padding:145px 0 155px}.hero-bottom{bottom:25px}.hero-actions{margin-bottom:26px;row-gap:15px}.hero-bottom span:last-child{font-size:9px}}
+@media(max-width:400px){.hero{min-height:850px;padding-bottom:165px}.hero-bottom{bottom:18px}.hero-bottom span:last-child{max-width:145px;text-align:right}.hero-actions .btn{padding:14px 18px}}
 </style>
 </head>
 <body>
